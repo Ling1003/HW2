@@ -110,7 +110,7 @@ a {
 	height: 786px;
 	top:0px;
 	right: 0px;
-	background-image:url(img/bg_yellow.png);
+	background-image:url("~img/bg_yellow.png");
 	background-repeat: no-repeat;
 	background-position: right top;
 	z-index: -1;
@@ -181,7 +181,7 @@ a {
          left: 8px;
          width: 350px;
          height: 305px;
-         background-image:url(img/small_bg.svg);
+         background-image:url("~img/small_bg.svg");
          z-index: -1;
 
 }
@@ -640,7 +640,7 @@ footer{
 
 
 .footer-plan{
-    background-image: url(img/bg.png) ;
+    background-image: url("~img/bg.png") ;
      height: 503px;
     // padding: 260px 0 197px 100px;  //上下px，左右%
     background-repeat: no-repeat;
@@ -665,7 +665,7 @@ footer{
 
 @media(max-width:767px){
     .footer-plan{
-        background-image: url(img/bg.png) ;
+        background-image: url("~img/bg.png") ;
          height: 461px;
         // padding: 260px 0 197px 100px;  //上下px，左右%
         background-repeat: no-repeat;
